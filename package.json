@@ -1,0 +1,10 @@
+{
+  "name": "Podcast",
+  "version": "1.0.0",
+  "dependencies": {
+    "underscore": "^1.13.1"
+  },
+  "devDependencies": {
+    "read-excel-file": "^5.2.24"
+  }
+}

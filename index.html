@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://unpkg.com/read-excel-file@5.x/bundle/read-excel-file.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/underscore@1.13.1/underscore-umd-min.js"></script>
+    <meta charset="UTF-8">
+    <title>ZeroPrep</title>
+</head>
+<body>
+    <h3>ZeroPrep</h3>
+    <table>
+        <tr>
+            <td><input placeholder="First topic"></td>
+            <td><input placeholder="First contributor"></td>
+        </tr>
+        <tr>
+            <td><input placeholder="Second topic"></td>
+            <td><input placeholder="Second contributor"></td>
+        </tr>
+        <tr>
+            <td><input placeholder="Third topic"></td>
+            <td><input placeholder="Third contributor"></td>
+        </tr>
+    </table>
+    <input type="file" id="input" />
+
+    <script src="getTopics.js"></script>
+    <script>document.onload = getTopics();</script>
+</body>
+</html>
